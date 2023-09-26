@@ -1,7 +1,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": ".",
     "sourceMap": true,
     "declaration": false,
     "moduleResolution": "node",
@@ -13,8 +12,11 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "baseUrl": "./nx-test",
+    "baseUrl": ".",
+    "rootDir": ".",
     "paths": {
+      "@nx-test/my-plugin": ["tools/my-plugin/src/index.ts"],
+      "@nx-test/my-generator": ["tools/my-plugin/generators/my-generator/generator.ts.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
