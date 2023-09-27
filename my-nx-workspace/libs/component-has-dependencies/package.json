@@ -1,0 +1,15 @@
+{
+  "name": "@my-nx-workspace/component-has-dependencies",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "@my-nx-workspace/example-react-library": "^0.0.1"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  }
+}
