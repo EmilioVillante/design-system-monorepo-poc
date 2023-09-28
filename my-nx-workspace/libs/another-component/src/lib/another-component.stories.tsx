@@ -19,6 +19,6 @@ export const Heading: Story = {
   args: {},
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
-    expect(canvas.getByText(/Welcome to AnotherComponent!/gi)).toBeTruthy();
+    expect(canvas.getByText(/Welcome to __fileName__!/gi)).toBeTruthy();
   },
 };

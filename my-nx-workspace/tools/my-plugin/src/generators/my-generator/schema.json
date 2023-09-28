@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "MyGenerator",
+  "title": "",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What name would you like to use?"
+    },
+    "atomicType": {
+      "type": "string",
+      "description": "Create a component of this atomic type",
+      "enum": ["atom", "molecule", "organism", "template"],
+      "x-prompt": {
+        "message": "Which atomic type is this component?",
+        "type": "list",
+        "items": [
+          { "value": "atom", "label": "Atom" },
+          { "value": "molecule", "label": "Molecule" },
+          { "value": "organism", "label": "Organism" },
+          { "value": "template", "label": "Template" }
+        ]
+      }
+    }
+  },
+  "required": ["name", "atomicType"]
+}
