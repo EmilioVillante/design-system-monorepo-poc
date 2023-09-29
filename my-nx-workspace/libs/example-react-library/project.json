@@ -13,11 +13,14 @@
       }
     },
     "build": {
-      "executor": "@nx/vite:build",
-      "outputs": ["{options.outputPath}"],
-      "defaultConfiguration": "production",
+      "executor": "@nx/js:tsc",
       "options": {
-        "outputPath": "{projectRoot}/dist"
+        "outputPath": "libs/example-react-library/dist",
+        "main": "libs/example-react-library/src/index.ts",
+        "tsConfig": "libs/example-react-library/tsconfig.lib.json",
+        "assets": ["libs/example-react-library/*.md"],
+        "generateExportsField": true,
+        "clean": true
       },
       "configurations": {
         "development": {

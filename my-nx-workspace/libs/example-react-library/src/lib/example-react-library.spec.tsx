@@ -4,7 +4,7 @@ import ExampleReactLibrary from './example-react-library';
 
 describe('ExampleReactLibrary', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<ExampleReactLibrary name="example" description={['test', 'another']} />);
+    const { baseElement } = render(<ExampleReactLibrary />);
     expect(baseElement).toBeTruthy();
   });
 });

@@ -7,7 +7,7 @@ export interface ComponentHasDependenciesProps {}
 export function ComponentHasDependencies(props: ComponentHasDependenciesProps) {
   return (
     <div className={styles['container']}>
-      <ExampleReactLibrary name="EXAMPLE REACT LIBRARY AS A DEPENDENCY" />
+      <ExampleReactLibrary />
       <h1>Welcome to ComponentHasDependencies!</h1>
     </div>
   );

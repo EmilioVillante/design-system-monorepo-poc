@@ -45,11 +45,14 @@ export async function myGeneratorGenerator(
         }
       },
       build: {
-        executor: "@nx/vite:build",
-        outputs: ["{options.outputPath}"],
-        defaultConfiguration: "production",
+        executor: "@nx/js:tsc",
         options: {
-          outputPath: "{projectRoot}/dist"
+          outputPath: `${projectRoot}/dist`,
+          main: `${projectRoot}/src/index.ts`,
+          tsConfig: `${projectRoot}/tsconfig.lib.json`,
+          assets: [`${projectRoot}/*.md`],
+          generateExportsField: true, // Required to rewrite the package.json exports fields from /src/index.ts to /src/index.js
+          clean: true // Removes the output directory before building
         },
         configurations: {
           development: {
