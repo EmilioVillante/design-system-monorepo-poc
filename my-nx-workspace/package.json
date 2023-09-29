@@ -4,7 +4,10 @@
   "license": "MIT",
   "scripts": {
     "storybook": "npx nx storybook storybook",
-    "build:all": "npx nx run-many --targets=build --all=true"
+    "storybook:build": "npx nx build-storybook storybook",
+    "build:all": "npx nx run-many --targets=build --all=true",
+    "test:all": "npx nx run-many --targets=test --all=true",
+    "lint:all": "npx nx run-many --targets=lint --all=true"
   },
   "private": true,
   "dependencies": {

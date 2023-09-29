@@ -9,7 +9,7 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "libs/component-has-dependencies/**/*.{ts,tsx,js,jsx}"
+          "libs/components/atoms/example-atom/src/**/*.{ts,tsx,js,jsx}"
         ]
       }
     },
@@ -33,11 +33,9 @@
       }
     },
     "test": {
-      "executor": "@nx/vite:test",
-      "outputs": ["{options.reportsDirectory}"],
+      "executor": "nx:run-commands",
       "options": {
-        "passWithNoTests": true,
-        "reportsDirectory": "{projectRoot}"
+        "commands": ["npx vitest libs/components/atoms/example-atom/src/**/*.spec.tsx --globals --run --environment=jsdom"]
       }
     }
   }

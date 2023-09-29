@@ -4,7 +4,6 @@ import {
   generateFiles,
   Tree,
   names,
-  runTasksInSerial,
   addDependenciesToPackageJson
 } from '@nx/devkit';
 import * as path from 'path';
@@ -45,7 +44,7 @@ export async function myGeneratorGenerator(
         outputs: ["{options.outputFile}"],
         options: {
           lintFilePatterns: [
-            "libs/component-has-dependencies/**/*.{ts,tsx,js,jsx}"
+            `${projectRoot}/src/**/*.{ts,tsx,js,jsx}`
           ]
         }
       },
@@ -69,11 +68,9 @@ export async function myGeneratorGenerator(
         }
       },
       test: {
-        executor: "@nx/vite:test",
-        outputs: ["{options.reportsDirectory}"],
+        executor: "nx:run-commands",
         options: {
-          passWithNoTests: true,
-          reportsDirectory: "{projectRoot}"
+          commands: [`npx vitest ${projectRoot}/src/**/*.spec.tsx --globals --run --environment=jsdom`]
         }
       }
     }
