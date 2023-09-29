@@ -2,7 +2,10 @@
   "name": "@my-nx-workspace/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "storybook": "npx nx storybook storybook",
+    "build:all": "npx nx run-many --targets=build --all=true"
+  },
   "private": true,
   "dependencies": {
     "@nx/devkit": "16.9.1",
