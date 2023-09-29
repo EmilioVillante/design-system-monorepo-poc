@@ -64,7 +64,6 @@
     ],
     "sharedGlobals": []
   },
-  "plugins": ["nx/plugins/package-json"],
   "generators": {
     "@nx/js": {
       "library": {

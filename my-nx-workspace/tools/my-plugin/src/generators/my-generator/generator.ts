@@ -4,7 +4,8 @@ import {
   generateFiles,
   Tree,
   names,
-  updateJson,
+  runTasksInSerial,
+  addDependenciesToPackageJson
 } from '@nx/devkit';
 import * as path from 'path';
 import { MyGeneratorGeneratorSchema } from './schema';
@@ -19,7 +20,7 @@ export async function myGeneratorGenerator(
   // Location of where the project will be created
   const projectRoot = `libs/components/${options.atomicType}s/${options.name}`;
   // Prefix the name with the atomic type to prevent similar namespaces
-  const projectName = `${options.atomicType}-${options.name}`
+  const projectName = `${options.name}`
   // Construct options that will be available through ejs templating
   const computedOptions = {
     ...options,
@@ -29,6 +30,10 @@ export async function myGeneratorGenerator(
     projectName
   }
 
+  // Add dependencies to the package.json
+  addDependenciesToPackageJson(tree, {}, {}, )
+
+  // Add and configure the nx project.json
   addProjectConfiguration(tree, options.name, {
     name: projectName,
     root: projectRoot,
@@ -74,6 +79,7 @@ export async function myGeneratorGenerator(
     }
   });
 
+  // Finally, generate all files
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, computedOptions);
   await formatFiles(tree);
 }

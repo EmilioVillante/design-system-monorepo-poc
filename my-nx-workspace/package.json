@@ -68,7 +68,11 @@
     "vitest": "~0.32.0"
   },
   "workspaces": [
-    "libs/*"
+    "libs/*",
+    "libs/components/atoms/*",
+    "libs/components/molecules/*",
+    "libs/components/organisms/*",
+    "libs/components/templates/*"
   ],
   "nx": {
     "includedScripts": []

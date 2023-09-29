@@ -1,0 +1,44 @@
+{
+  "name": "example-molecule",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/components/molecules/example-molecule/src",
+  "targets": {
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/component-has-dependencies/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "outputPath": "libs/components/molecules/example-molecule/dist",
+        "main": "libs/components/molecules/example-molecule/src/index.ts",
+        "tsConfig": "libs/components/molecules/example-molecule/tsconfig.lib.json",
+        "assets": ["libs/components/molecules/example-molecule/*.md"],
+        "generateExportsField": true,
+        "clean": true
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/vite:test",
+      "outputs": ["{options.reportsDirectory}"],
+      "options": {
+        "passWithNoTests": true,
+        "reportsDirectory": "{projectRoot}"
+      }
+    }
+  }
+}

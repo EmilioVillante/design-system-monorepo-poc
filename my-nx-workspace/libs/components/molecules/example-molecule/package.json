@@ -1,0 +1,17 @@
+{
+  "name": "@my-nx-workspace/example-molecule",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "@my-nx-workspace/example-atom": "^0.0.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  }
+}

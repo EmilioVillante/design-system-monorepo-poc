@@ -15,19 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-nx-workspace/another-component": [
-        "libs/another-component/src/index.ts"
-      ],
-      "@my-nx-workspace/component-has-dependencies": [
-        "libs/component-has-dependencies/src/index.ts"
-      ],
-      "@my-nx-workspace/example-atom": [
-        "libs/components/atoms/example-atom/src/index.ts"
-      ],
-      "@my-nx-workspace/example-flat": ["libs/example-flat/src/index.ts"],
-      "@my-nx-workspace/example-react-library": [
-        "libs/example-react-library/src/index.ts"
-      ],
       "@my-nx-workspace/my-plugin": ["tools/my-plugin/src/index.ts"]
     }
   },
