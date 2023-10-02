@@ -70,7 +70,7 @@ export async function myGeneratorGenerator(
       test: {
         executor: "nx:run-commands",
         options: {
-          commands: [`npx vitest ${projectRoot}/src/**/*.spec.tsx --globals --run --environment=jsdom`]
+          command: `npx vitest ${projectRoot}/src/**/*.spec.tsx --globals --run --environment=jsdom`
         }
       }
     }

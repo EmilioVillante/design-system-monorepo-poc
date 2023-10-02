@@ -35,7 +35,7 @@
     "test": {
       "executor": "nx:run-commands",
       "options": {
-        "commands": ["npx vitest libs/components/molecules/example-molecule/src/**/*.spec.tsx --globals --run --environment=jsdom"]
+        "command": "npx vitest libs/components/molecules/example-molecule/src/**/*.spec.tsx --globals --run --environment=jsdom"
       }
     }
   }
