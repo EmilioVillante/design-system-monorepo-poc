@@ -1,6 +1,6 @@
 {
   "name": "@my-nx-workspace/example-atom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "types": "./src/index.d.ts",
   "scripts": {
     "lint": "eslint src/",
