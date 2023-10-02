@@ -2,6 +2,11 @@
   "name": "@my-nx-workspace/example-atom",
   "version": "0.0.1",
   "types": "./src/index.d.ts",
+  "scripts": {
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "test": "npx vitest --globals --run --environment=jsdom --reporter=verbose"
+  },
   "dependencies": {},
   "devDependencies": {},
   "peerDependencies": {},

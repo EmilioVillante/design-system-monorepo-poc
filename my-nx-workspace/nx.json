@@ -23,12 +23,10 @@
       "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"]
     },
     "lint": {
-      "inputs": [
-        "default",
-        "{workspaceRoot}/.eslintrc.json",
-        "{workspaceRoot}/.eslintignore",
-        "{workspaceRoot}/eslint.config.js"
-      ]
+      "inputs": ["linting"]
+    },
+    "lint:fix": {
+      "inputs": ["linting"]
     },
     "storybook": {
       "inputs": [
@@ -62,7 +60,13 @@
       "!{projectRoot}/src/test-setup.[jt]s",
       "!{projectRoot}/test-setup.[jt]s"
     ],
-    "sharedGlobals": []
+    "sharedGlobals": [],
+    "linting": [
+      "default",
+      "{workspaceRoot}/.eslintrc.json",
+      "{workspaceRoot}/.eslintignore",
+      "{workspaceRoot}/eslint.config.js"
+    ]
   },
   "generators": {
     "@nx/js": {

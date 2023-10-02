@@ -39,15 +39,6 @@ export async function myGeneratorGenerator(
     projectType: 'library',
     sourceRoot: `${projectRoot}/src`,
     targets: {
-      lint: {
-        executor: "@nx/linter:eslint",
-        outputs: ["{options.outputFile}"],
-        options: {
-          lintFilePatterns: [
-            `${projectRoot}/src/**/*.{ts,tsx,js,jsx}`
-          ]
-        }
-      },
       build: {
         executor: "@nx/js:tsc",
         options: {
@@ -65,12 +56,6 @@ export async function myGeneratorGenerator(
           production: {
             mode: "production"
           }
-        }
-      },
-      test: {
-        executor: "nx:run-commands",
-        options: {
-          command: `npx vitest ${projectRoot}/src/**/*.spec.tsx --globals --run --environment=jsdom`
         }
       }
     }

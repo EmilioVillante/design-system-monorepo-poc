@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",
+  "scripts": {
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "test": "npx vitest --globals --run --environment=jsdom --reporter=verbose"
+  },
   "dependencies": {
     "@my-nx-workspace/example-atom": "^0.0.1"
   },

@@ -4,15 +4,6 @@
   "projectType": "library",
   "sourceRoot": "libs/components/molecules/example-molecule/src",
   "targets": {
-    "lint": {
-      "executor": "@nx/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": [
-          "libs/components/molecules/example-molecule/src/**/*.{ts,tsx,js,jsx}"
-        ]
-      }
-    },
     "build": {
       "executor": "@nx/js:tsc",
       "options": {
@@ -30,12 +21,6 @@
         "production": {
           "mode": "production"
         }
-      }
-    },
-    "test": {
-      "executor": "nx:run-commands",
-      "options": {
-        "command": "npx vitest libs/components/molecules/example-molecule/src/**/*.spec.tsx --globals --run --environment=jsdom"
       }
     }
   }
