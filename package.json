@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "create:component": "nx generate @my-nx-workspace/my-plugin:my-generator",
     "storybook": "npx nx storybook storybook",
     "storybook:build": "npx nx build-storybook storybook",
     "build:all": "npx nx run-many --targets=build --all=true",
