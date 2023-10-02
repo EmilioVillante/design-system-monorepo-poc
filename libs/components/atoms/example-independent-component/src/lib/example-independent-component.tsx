@@ -9,7 +9,7 @@ export function ExampleIndependentComponent(
 ) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to ExampleIndependentComponent!</h1>
+      <h1>We will give this a different name!</h1>
       <p>Name: {props.name}</p>
     </div>
   );
