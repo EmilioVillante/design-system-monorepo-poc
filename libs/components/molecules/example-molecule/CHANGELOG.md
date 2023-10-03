@@ -1,5 +1,12 @@
 # @my-nx-workspace/example-molecule
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies [f91f887]
+  - @my-nx-workspace/example-atom@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

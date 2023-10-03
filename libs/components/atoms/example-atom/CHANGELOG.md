@@ -1,5 +1,11 @@
 # @my-nx-workspace/example-atom
 
+## 0.0.5
+
+### Patch Changes
+
+- f91f887: Example Summary
+
 ## 0.0.4
 
 ### Patch Changes
