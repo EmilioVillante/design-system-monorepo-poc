@@ -5,7 +5,7 @@
     { "repo": "EmilioVillante/design-system-monorepo-poc" }
   ],
 
-  "commit": false,
+  "commit": true,
   "fixed": [],
   "linked": [],
   "access": "restricted",
