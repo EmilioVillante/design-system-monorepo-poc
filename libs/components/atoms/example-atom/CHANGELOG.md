@@ -1,5 +1,11 @@
 # @my-nx-workspace/example-atom
 
+## 0.0.6
+
+### Patch Changes
+
+- [`01456a0`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/01456a0b9d978a7fdb476db515a925433a9d97dd) Thanks [@EmilioVillante](https://github.com/EmilioVillante)! - test
+
 ## 0.0.5
 
 ### Patch Changes
