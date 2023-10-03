@@ -1,5 +1,11 @@
 # @my-nx-workspace/example-independent-component
 
+## 0.0.4
+
+### Patch Changes
+
+- [#2](https://github.com/EmilioVillante/design-system-monorepo-poc/pull/2) [`3e98891`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/3e98891fe9b48ab17a2863f1a75eb14f2501667a) Thanks [@EmilioVillante](https://github.com/EmilioVillante)! - feat(changeset): Example changeset summary
+
 ## 0.0.3
 
 ### Patch Changes
