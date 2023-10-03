@@ -2,14 +2,14 @@
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "EmilioVillante/design-system-monorepo-poc" }
+    { "repo": "emiliovillante/design-system-monorepo-poc" }
   ],
 
   "commit": true,
   "fixed": [],
   "linked": [],
   "access": "restricted",
-  "baseBranch": "main",
+  "baseBranch": "poc-nx",
   "updateInternalDependencies": "patch",
   "ignore": []
 }
