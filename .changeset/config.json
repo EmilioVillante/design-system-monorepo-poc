@@ -1,7 +1,9 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
-  "changelog": "@changesets/changelog-git",
-
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "emiliovillante/design-system-monorepo-poc" }
+  ],
   "commit": true,
   "fixed": [],
   "linked": [],
