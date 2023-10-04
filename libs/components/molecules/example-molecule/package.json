@@ -1,6 +1,6 @@
 {
   "name": "@my-nx-workspace/example-molecule",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./index.js",
   "types": "./index.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
     "test": "npx vitest --globals --run --environment=jsdom --reporter=verbose"
   },
   "dependencies": {
-    "@my-nx-workspace/example-atom": "^0.0.6"
+    "@my-nx-workspace/example-atom": "^0.0.7"
   },
   "devDependencies": {},
   "peerDependencies": {},
