@@ -13,7 +13,7 @@ export function ExampleMolecule(props: ExampleMoleculeProps) {
         <p>Name: {props.name}</p>
       </div>
       <hr />
-      <p>Example monorepo atom as a dependency!</p>
+      <p>Example monorepo atom as a dependency! test status command</p>
       <ExampleAtom />
     </>
   );
