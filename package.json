@@ -36,6 +36,7 @@
     "@nx/vite": "16.9.1",
     "@nx/web": "16.9.1",
     "@nx/workspace": "16.9.1",
+    "@storybook/addon-a11y": "^7.4.6",
     "@storybook/addon-essentials": "^7.2.1",
     "@storybook/addon-interactions": "^7.2.1",
     "@storybook/core-server": "^7.2.1",
