@@ -21,7 +21,7 @@ export const WithName: Story = {
   },
   play: async ({ canvasElement, args }) => {
     const canvas = within(canvasElement);
-    expect(canvas.getByText(/Welcome to ExampleAtom!/gi)).toBeTruthy();
+    expect(canvas.getByText(/Welcome to ExampleAtom/gi)).toBeTruthy();
 
     const re = new RegExp(`Name: ${args.name}`, 'gi');
     expect(canvas.getByText(re)).toBeTruthy();
