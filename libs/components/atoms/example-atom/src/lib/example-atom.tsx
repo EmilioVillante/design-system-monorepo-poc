@@ -7,7 +7,7 @@ export type ExampleAtomProps = {
 export function ExampleAtom(props: ExampleAtomProps) {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to ExampleAtom with change!   cool</h1>
+      <h1>Welcome to ExampleAtom with change!   really cool</h1>
       <p>Name: {props.name}</p>
     </div>
   );
