@@ -9,7 +9,7 @@ export function ExampleMolecule(props: ExampleMoleculeProps) {
   return (
     <>
       <div className={styles['container']}>
-        <h1>Welcome to ExampleMolecule!</h1>
+        <h1>Welcome to ExampleMolecule! cool</h1>
         <p>Name: {props.name}</p>
       </div>
       <hr />
