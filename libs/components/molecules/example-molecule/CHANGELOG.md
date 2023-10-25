@@ -1,5 +1,11 @@
 # @my-nx-workspace/example-molecule
 
+## 0.0.8
+
+### Patch Changes
+
+- [#10](https://github.com/EmilioVillante/design-system-monorepo-poc/pull/10) [`1e0e43b`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/1e0e43b16b2247ac5db26ff80c39e0a8fdb6e360) Thanks [@EmilioVillante](https://github.com/EmilioVillante)! - added an organism component that includes the existing molecule component
+
 ## 0.0.7
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@my-nx-workspace/example-organism",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "types": "./src/index.d.ts",
   "scripts": {
     "lint": "eslint src/",
@@ -8,7 +8,7 @@
     "test": "npx vitest --globals --run --environment=jsdom --reporter=verbose"
   },
   "dependencies": {
-    "@my-nx-workspace/example-molecule": "^0.0.7"
+    "@my-nx-workspace/example-molecule": "^0.0.8"
   },
   "devDependencies": {},
   "peerDependencies": {},
