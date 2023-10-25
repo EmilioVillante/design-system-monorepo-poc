@@ -1,14 +1,14 @@
 {
-  "name": "@my-nx-workspace/example-molecule",
-  "version": "0.0.7",
-  "types": "./index.d.ts",
+  "name": "@my-nx-workspace/example-organism",
+  "version": "0.0.1",
+  "types": "./src/index.d.ts",
   "scripts": {
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "test": "npx vitest --globals --run --environment=jsdom --reporter=verbose"
   },
   "dependencies": {
-    "@my-nx-workspace/example-atom": "^0.0.7"
+    "@my-nx-workspace/example-molecule": "^0.0.7"
   },
   "devDependencies": {},
   "peerDependencies": {},
