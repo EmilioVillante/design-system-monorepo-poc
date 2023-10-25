@@ -1,0 +1,27 @@
+{
+  "name": "example-organism",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/components/organisms/example-organism/src",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "outputPath": "libs/components/organisms/example-organism/dist",
+        "main": "libs/components/organisms/example-organism/src/index.ts",
+        "tsConfig": "libs/components/organisms/example-organism/tsconfig.lib.json",
+        "assets": ["libs/components/organisms/example-organism/*.md"],
+        "generateExportsField": true,
+        "clean": true
+      },
+      "configurations": {
+        "development": {
+          "mode": "development"
+        },
+        "production": {
+          "mode": "production"
+        }
+      }
+    }
+  }
+}
