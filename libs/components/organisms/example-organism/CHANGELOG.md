@@ -1,5 +1,12 @@
 # @my-nx-workspace/example-organism
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies [[`e7b7622`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/e7b7622dbc3c186f712577249d6e18017a5399d7)]:
+  - @my-nx-workspace/example-molecule@0.0.9
+
 ## 0.0.2
 
 ### Patch Changes

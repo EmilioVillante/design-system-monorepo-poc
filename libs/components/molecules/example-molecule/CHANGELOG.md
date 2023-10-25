@@ -1,5 +1,11 @@
 # @my-nx-workspace/example-molecule
 
+## 0.0.9
+
+### Patch Changes
+
+- [#12](https://github.com/EmilioVillante/design-system-monorepo-poc/pull/12) [`e7b7622`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/e7b7622dbc3c186f712577249d6e18017a5399d7) Thanks [@EmilioVillante](https://github.com/EmilioVillante)! - added the word cool to molecule
+
 ## 0.0.8
 
 ### Patch Changes
