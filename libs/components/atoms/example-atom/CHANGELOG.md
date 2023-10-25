@@ -1,5 +1,11 @@
 # @my-nx-workspace/example-atom
 
+## 0.0.8
+
+### Patch Changes
+
+- [#7](https://github.com/EmilioVillante/design-system-monorepo-poc/pull/7) [`ff904ee`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/ff904ee3cd8dbe932df73e18ce99d04da04724ec) Thanks [@EmilioVillante](https://github.com/EmilioVillante)! - added shopping cart to sale page
+
 ## 0.0.7
 
 ### Patch Changes
