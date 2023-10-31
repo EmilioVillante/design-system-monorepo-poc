@@ -30,3 +30,6 @@ jobs:
         with:
           commit: 'chore: release package(s)'
           title: 'chore: release package(s)'
+
+      - name: log outputs
+        run: echo "outputs - ${{ steps.changesets.outputs }}"
