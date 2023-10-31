@@ -27,9 +27,11 @@ jobs:
         uses: changesets/action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
           commit: 'chore: release package(s)'
           title: 'chore: release package(s)'
+          publish: yarn changeset:release
 
       - name: log outputs
         run: echo "outputs - ${{ steps.changesets.outputs }}"

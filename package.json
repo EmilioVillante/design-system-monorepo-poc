@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
+    "changeset:release": "npx --yes changeset publish",
     "create:component": "nx generate @my-nx-workspace/my-plugin:my-generator",
     "storybook": "npx nx storybook storybook",
     "storybook:build": "npx nx build-storybook storybook",
