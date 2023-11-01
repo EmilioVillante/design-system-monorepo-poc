@@ -1,4 +1,4 @@
-# @my-nx-workspace/example-atom
+# evill-example-atom
 
 ## 0.0.7
 

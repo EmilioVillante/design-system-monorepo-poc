@@ -1,14 +1,14 @@
 {
-  "name": "@my-nx-workspace/example-molecule",
+  "name": "evill-example-molecule",
   "version": "0.0.9",
-  "types": "./index.d.ts",
+  "types": "./src/index.d.ts",
   "scripts": {
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "test": "npx vitest --globals --run --environment=jsdom --reporter=verbose"
   },
   "dependencies": {
-    "@my-nx-workspace/example-atom": "^0.0.7"
+    "evill-example-atom": "^0.0.7"
   },
   "devDependencies": {},
   "peerDependencies": {},

@@ -1,5 +1,5 @@
 import styles from './example-molecule.module.scss';
-import { ExampleAtom } from '@my-nx-workspace/example-atom';
+import { ExampleAtom } from 'evill-example-atom';
 
 export type ExampleMoleculeProps = {
   name?: string;

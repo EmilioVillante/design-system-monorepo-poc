@@ -1,5 +1,5 @@
 import styles from './example-organism.module.scss';
-import { ExampleMolecule } from '@my-nx-workspace/example-molecule';
+import { ExampleMolecule } from 'evill-example-molecule';
 
 export type ExampleOrganismProps = {
   name?: string;

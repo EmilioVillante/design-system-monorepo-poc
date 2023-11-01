@@ -1,5 +1,5 @@
 {
-  "name": "@my-nx-workspace/example-organism",
+  "name": "evill-example-organism",
   "version": "0.0.3",
   "types": "./src/index.d.ts",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "npx vitest --globals --run --environment=jsdom --reporter=verbose"
   },
   "dependencies": {
-    "@my-nx-workspace/example-molecule": "^0.0.9"
+    "evill-example-molecule": "^0.0.9"
   },
   "devDependencies": {},
   "peerDependencies": {},

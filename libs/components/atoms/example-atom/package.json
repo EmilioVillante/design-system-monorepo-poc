@@ -1,5 +1,5 @@
 {
-  "name": "@my-nx-workspace/example-atom",
+  "name": "evill-example-atom",
   "version": "0.0.7",
   "types": "./src/index.d.ts",
   "scripts": {
