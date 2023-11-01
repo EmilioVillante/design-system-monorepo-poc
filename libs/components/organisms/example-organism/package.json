@@ -1,6 +1,9 @@
 {
   "name": "evill-example-organism",
   "version": "0.0.3",
+  "publishConfig": {
+    "access": "public"
+  },
   "types": "./src/index.d.ts",
   "scripts": {
     "lint": "eslint src/",

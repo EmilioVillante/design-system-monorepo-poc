@@ -1,6 +1,9 @@
 {
   "name": "evill-example-atom",
   "version": "0.0.7",
+  "publishConfig": {
+    "access": "public"
+  },
   "types": "./src/index.d.ts",
   "scripts": {
     "lint": "eslint src/",
