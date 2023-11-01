@@ -1,5 +1,11 @@
 # evill-example-organism
 
+## 0.0.4
+
+### Patch Changes
+
+- [`ae495c3`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/ae495c3ae13b66ca9d7d5bb94e547549165b741a) Thanks [@EmilioVillante](https://github.com/EmilioVillante)! - test
+
 ## 0.0.3
 
 ### Patch Changes
