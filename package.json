@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "changeset:release": "npx --yes changeset publish",
+    "changeset:add": "changeset add",
+    "changeset:publish": "changeset publish",
     "create:component": "nx generate @my-nx-workspace/my-plugin:my-generator",
     "storybook": "npx nx storybook storybook",
     "storybook:build": "npx nx build-storybook storybook",
@@ -12,8 +13,7 @@
     "build:all": "npx nx run-many --targets=build --all=true",
     "test:all": "npx nx run-many --targets=test --all=true",
     "lint:all": "npx nx run-many --targets=lint --all=true",
-    "lint:fix:all": "npx nx run-many --targets=lint:fix --all=true",
-    "changeset:add": "npx changeset add"
+    "lint:fix:all": "npx nx run-many --targets=lint:fix --all=true"
   },
   "private": true,
   "dependencies": {
