@@ -35,4 +35,7 @@ jobs:
           publish: yarn changeset:publish
 
       - name: log outputs
-        run: echo "outputs - ${{ steps.changesets.outputs }}"
+        run: echo "outputs - ${{ steps.changesets.outputs.published }}"
+
+      - name: log outputs
+        run: echo "if statement - ${{ steps.changesets.outputs.published == 'true' }}"
