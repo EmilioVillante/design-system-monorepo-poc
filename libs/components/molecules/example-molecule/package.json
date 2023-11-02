@@ -1,6 +1,6 @@
 {
   "name": "evill-example-molecule",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "publishConfig": {
     "access": "public"
   },
@@ -11,7 +11,7 @@
     "test": "npx vitest --globals --run --environment=jsdom --reporter=verbose"
   },
   "dependencies": {
-    "evill-example-atom": "^0.0.7"
+    "evill-example-atom": "^0.0.8"
   },
   "devDependencies": {},
   "peerDependencies": {},

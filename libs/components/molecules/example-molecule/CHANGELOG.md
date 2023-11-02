@@ -1,5 +1,14 @@
 # evill-example-molecule
 
+## 0.0.10
+
+### Patch Changes
+
+- [`4feb163`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/4feb1637a4a9b7ebcfcdb018fcf28f545ac59543) Thanks [@EmilioVillante](https://github.com/EmilioVillante)! - third addition
+
+- Updated dependencies [[`6e523e0`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/6e523e0d676606f1e8d786d8cb2ef8a5d9ded1ec), [`6e523e0`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/6e523e0d676606f1e8d786d8cb2ef8a5d9ded1ec)]:
+  - evill-example-atom@0.0.8
+
 ## 0.0.9
 
 ### Patch Changes
