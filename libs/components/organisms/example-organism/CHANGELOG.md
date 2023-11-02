@@ -1,5 +1,12 @@
 # evill-example-organism
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies [[`4feb163`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/4feb1637a4a9b7ebcfcdb018fcf28f545ac59543)]:
+  - evill-example-molecule@0.0.10
+
 ## 0.0.4
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # evill-example-atom
 
+## 0.0.8
+
+### Patch Changes
+
+- [`6e523e0`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/6e523e0d676606f1e8d786d8cb2ef8a5d9ded1ec) Thanks [@EmilioVillante](https://github.com/EmilioVillante)! - second addition
+
+- [`6e523e0`](https://github.com/EmilioVillante/design-system-monorepo-poc/commit/6e523e0d676606f1e8d786d8cb2ef8a5d9ded1ec) Thanks [@EmilioVillante](https://github.com/EmilioVillante)! - first addition
+
 ## 0.0.7
 
 ### Patch Changes
