@@ -12,7 +12,7 @@ export function ExampleOrganism(props: ExampleOrganismProps) {
       <p>Name: {props.name}</p>
       <br />
       <hr />
-      <p>Example monorepo molecule as a dependency!</p>
+      <p>Example monorepo molecule as a dependency! test</p>
       <ExampleMolecule />
     </div>
   );
